@@ -1,7 +1,7 @@
-package com.service;
+package com.fsd.service;
 
-import com.domain.Company;
-import com.util.ResponseResult;
+import com.fsd.domain.Company;
+import com.fsd.util.ResponseResult;
 
 public interface CompanyService {
     ResponseResult findAll();

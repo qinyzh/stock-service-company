@@ -1,4 +1,4 @@
-package com.domain;
+package com.fsd.domain;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

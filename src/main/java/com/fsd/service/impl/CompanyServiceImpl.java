@@ -1,15 +1,15 @@
-package com.service.impl;
+package com.fsd.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.domain.Company;
-import com.repository.CompanyRepository;
-import com.service.CompanyService;
-import com.util.ResponseCode;
-import com.util.ResponseResult;
+import com.fsd.domain.Company;
+import com.fsd.repository.CompanyRepository;
+import com.fsd.service.CompanyService;
+import com.fsd.util.ResponseCode;
+import com.fsd.util.ResponseResult;
 
 @Service
 public class CompanyServiceImpl implements CompanyService {

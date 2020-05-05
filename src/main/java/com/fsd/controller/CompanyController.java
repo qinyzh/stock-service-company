@@ -1,4 +1,4 @@
-package com.controller;
+package com.fsd.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.domain.Company;
-import com.service.CompanyService;
-import com.util.ResponseResult;
+import com.fsd.domain.Company;
+import com.fsd.service.CompanyService;
+import com.fsd.util.ResponseResult;
 
 @CrossOrigin
 @RestController

@@ -1,9 +1,9 @@
-package com.repository;
+package com.fsd.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.domain.Company;
+import com.fsd.domain.Company;
 
 public interface CompanyRepository extends JpaRepository<Company,Long>{
 

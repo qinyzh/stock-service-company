@@ -1,4 +1,4 @@
-package com.util;
+package com.fsd.util;
 
 public class ResponseCode {
     protected ResponseCode() {}
