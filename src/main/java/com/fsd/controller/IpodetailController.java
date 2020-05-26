@@ -13,7 +13,6 @@ import com.fsd.domain.Ipodetail;
 import com.fsd.service.IpodetailService;
 import com.fsd.util.ResponseResult;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/ipodetail")
 public class IpodetailController {

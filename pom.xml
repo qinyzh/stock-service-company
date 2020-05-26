@@ -20,12 +20,12 @@
 	    <groupId>org.springframework.boot</groupId>
 	    <artifactId>spring-boot-starter-test</artifactId>
     </dependency>
-     	<!--eureka客户端支持 -->
-       <dependency>
-           <groupId>org.springframework.cloud</groupId>
-           <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-       </dependency> 
-       <!-- 添加 Mysql 依赖 -->
+   	<!--eureka客户端支持 -->
+    <dependency>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency> 
+      <!-- 添加 Mysql 依赖 -->
 	<dependency>
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>

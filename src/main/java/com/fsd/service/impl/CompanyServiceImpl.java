@@ -91,6 +91,8 @@ public class CompanyServiceImpl implements CompanyService {
 			
 			//List<String> dateList = DateUtil.cutDate(periodicity, fromdate, todate);
 			List dataList = new ArrayList();
+			List timeList = new ArrayList();
+			String[] timeArray;
 			for(int i = 0; i<companys.size(); i++) {
 				Map company =  (HashMap)companys.get(i);
 				String type = (String)company.get("type");
@@ -99,15 +101,13 @@ public class CompanyServiceImpl implements CompanyService {
 				if(type.equals("0")) {
 					//company
 					chartData = companyRepository.getChartByMonth(companyname,stockexchange,fromdate,todate);
-					for(int j=0;j<chartData.size();j++) {
-						
-					}
+					dataList.add(chartData);
 				}
 				
 				
 			}
 			
-			return ResponseResult.build(ResponseCode.SUCCESS, "SUCCESS!",chartData);
+			return ResponseResult.build(ResponseCode.SUCCESS, "SUCCESS!",dataList);
 		} catch (Exception e) {
         	return ResponseResult.build(ResponseCode.ERROR_ACCESS_DB, "DB ERROR!");
         }

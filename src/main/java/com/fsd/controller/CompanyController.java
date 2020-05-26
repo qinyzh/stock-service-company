@@ -16,7 +16,6 @@ import com.fsd.service.CompanyService;
 import com.fsd.util.ResponseResult;
 import com.fsd.vo.CompanyCompareVo;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/company")
 public class CompanyController {
